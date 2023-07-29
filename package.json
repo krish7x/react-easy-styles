@@ -1,0 +1,30 @@
+{
+  "name": "react-easy-styles",
+  "version": "0.0.1",
+  "description": "System design made for react",
+  "workspaces": [
+    "packages/*"
+  ],
+  "private": true,
+  "repository": "https://github.com/krish7x/react-easy-styles.git",
+  "author": "krishnakumar",
+  "license": "MIT",
+  "scripts": {
+    "build:web": "turbo run build",
+    "dev:web": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "yarn@1.22.18",
+  "dependencies": {
+    "@changesets/cli": "^2.26.2"
+  },
+  "devDependencies": {
+    "prettier": "latest",
+    "turbo": "1.10.12"
+  }
+}

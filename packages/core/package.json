@@ -1,0 +1,33 @@
+{
+  "name": "@react-easy-styles/core",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup index.tsx --clean --splitting --treeshake --inject ./react-import.js --format esm,cjs --dts --external react",
+    "dev": "tsup index.tsx --sourcemap --clean --inject ./react-import.js --format esm,cjs --watch --dts --external react",
+    "lint": "TIMING=1 eslint src/**/*.ts* --fix",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/lodash.merge": "^4.6.7",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "eslint": "^7.32.0",
+    "lodash.merge": "^4.6.2",
+    "react": "^17.0.2",
+    "tsup": "6.1.3",
+    "typescript": "^4.5.2"
+  },
+  "peerDependencies": {
+    "react": ">= 17.0.2"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.8"
+  }
+}
