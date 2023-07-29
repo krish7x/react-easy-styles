@@ -5,7 +5,7 @@
   "workspaces": [
     "packages/*"
   ],
-  "private": true,
+  "private": false,
   "repository": "https://github.com/krish7x/react-easy-styles.git",
   "author": "krishnakumar",
   "license": "MIT",
