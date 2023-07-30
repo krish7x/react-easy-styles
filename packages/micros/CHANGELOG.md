@@ -1,5 +1,11 @@
 # @react-easy-styles/micros
 
+## 1.1.0
+
+### Minor Changes
+
+- Added changelog and additional layout micros
+
 ## 1.0.0
 
 ### Major Changes
