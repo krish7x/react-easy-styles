@@ -1,6 +1,6 @@
 {
   "name": "@react-easy-styles/micros",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -20,7 +20,7 @@
   },
   "peerDependencies": {
     "react": ">= 17.0.2",
-    "@react-easy-styles/core": "0.0.1"
+    "@react-easy-styles/core": "1.0.0"
   },
   "dependencies": {
     "lodash.merge": "4.6.2"
