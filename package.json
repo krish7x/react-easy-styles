@@ -5,13 +5,13 @@
   "workspaces": [
     "packages/*"
   ],
-  "private": false,
+  "private": true,
   "repository": "https://github.com/krish7x/react-easy-styles.git",
   "author": "krishnakumar",
   "license": "MIT",
   "scripts": {
-    "build:web": "turbo run build",
-    "dev:web": "turbo run dev --parallel",
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
