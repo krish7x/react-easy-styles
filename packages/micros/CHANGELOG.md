@@ -1,5 +1,11 @@
 # @react-easy-styles/micros
 
+## 1.1.1
+
+### Patch Changes
+
+- Add re-exports for additional micros
+
 ## 1.1.0
 
 ### Minor Changes
