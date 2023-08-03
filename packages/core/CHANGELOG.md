@@ -1,5 +1,11 @@
 # @react-easy-styles/core
 
+## 1.1.0
+
+### Minor Changes
+
+- Add minify in build step
+
 ## 1.0.0
 
 ### Major Changes
